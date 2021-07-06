@@ -1,0 +1,8 @@
+Indique el numero de empleados que desea registrar: 
+1
+Datos ingresados 
+
+Empleado No: 1
+Nombre: marco 
+Fecha de nacimiento: 5/2/1997
+Edad : 24 años
