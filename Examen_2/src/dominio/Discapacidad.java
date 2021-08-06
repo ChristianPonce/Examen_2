@@ -22,7 +22,7 @@ public class Discapacidad extends Jubilados{
             else if(discapacidad == 40){
                 System.out.println("Porcentaje Discapacidad del 40%");
                 sb=getSalarioBase()/2;
-                PD=sb+(sb*(discapacidad/100));
+                PD=sb+(sb*(0.4));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+PD);
@@ -30,7 +30,7 @@ public class Discapacidad extends Jubilados{
             else if(discapacidad == 50){
                 System.out.println("Porcentaje Discapacidad del 50%");
                 sb=getSalarioBase()/2;
-                PD=sb+(sb*(discapacidad/100));
+                PD=sb+(sb*(0.5));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+PD);
@@ -38,7 +38,7 @@ public class Discapacidad extends Jubilados{
             else if(discapacidad == 60){
                 System.out.println("Porcentaje Discapacidad del 60%");
                 sb=getSalarioBase()/2;
-                PD=sb+(sb*(discapacidad/100));
+                PD=sb+(sb*(0.6));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+PD);
@@ -46,7 +46,7 @@ public class Discapacidad extends Jubilados{
             else if(discapacidad == 70){
                 System.out.println("Porcentaje Discapacidad del 70%");
                 sb=getSalarioBase()/2;
-                PD=sb+(sb*(discapacidad/100));
+                PD=sb+(sb*(0.7));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+PD);
@@ -54,7 +54,7 @@ public class Discapacidad extends Jubilados{
             else if(discapacidad == 80){
                 System.out.println("Porcentaje Discapacidad del 80%");
                 sb=getSalarioBase()/2;
-                PD=sb+(sb*(discapacidad/100));
+                PD=sb+(sb*(0.8));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+PD);
@@ -62,7 +62,7 @@ public class Discapacidad extends Jubilados{
             else if(discapacidad == 90){
                 System.out.println("Porcentaje Discapacidad del 90%");
                 sb=getSalarioBase()/2;
-                PD=sb+(sb*(discapacidad/100));
+                PD=sb+(sb*(0.9));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+PD);
@@ -73,7 +73,7 @@ public class Discapacidad extends Jubilados{
             if(discapacidad <= 40){
                 System.out.println("Porcentaje Discapacidad menor al 40%");
                 System.out.println("En estos casos no presenta ningún bono adicional");
-                sb1=getSalarioBase()/2;
+                sb1=getSalarioBase()*0.6;
                 D1=sb1;
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb1+"\nAnios de Aportacion: "
@@ -81,48 +81,48 @@ public class Discapacidad extends Jubilados{
             }
             else if(discapacidad == 40){
                 System.out.println("Porcentaje Discapacidad del 40%");
-                sb1=getSalarioBase()/2;
-                D1=sb1+(sb1*(discapacidad/100));
+                sb1=getSalarioBase()*0.6;
+                D1=sb1+(sb1*(0.4));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb1+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D1);
             }
             else if(discapacidad == 50){
                 System.out.println("Porcentaje Discapacidad del 50%");
-                sb1=getSalarioBase()/2;
-                D1=sb1+(sb1*(discapacidad/100));
+                sb1=getSalarioBase()*0.6;
+                D1=sb1+(sb1*(0.5));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb1+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D1);
             }
             else if(discapacidad == 60){
                 System.out.println("Porcentaje Discapacidad del 60%");
-                sb1=getSalarioBase()/2;
-                D1=sb1+(sb1*(discapacidad/100));
+                sb1=getSalarioBase()*0.6;
+                D1=sb1+(sb1*(0.6));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb1+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D1);
             }
             else if(discapacidad == 70){
                 System.out.println("Porcentaje Discapacidad del 70%");
-                sb1=getSalarioBase()/2;
-                D1=sb1+(sb1*(discapacidad/100));
+                sb1=getSalarioBase()*0.6;
+                D1=sb1+(sb1*(0.7));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb1+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D1);
             }
             else if(discapacidad == 80){
                 System.out.println("Porcentaje Discapacidad del 80%");
-                sb1=getSalarioBase()/2;
-                D1=sb1+(sb1*(discapacidad/100));
+                sb1=getSalarioBase()*0.6;
+                D1=sb1+(sb1*(0.8));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb1+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D1);
             }
             else if(discapacidad == 90){
                 System.out.println("Porcentaje Discapacidad del 90%");
-                sb1=getSalarioBase()/2;
-                D1=sb1+(sb1*(discapacidad/100));
+                sb1=getSalarioBase()*0.6;
+                D1=sb1+(sb1*(0.9));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb1+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D1);
@@ -132,7 +132,7 @@ public class Discapacidad extends Jubilados{
             if(discapacidad <= 40){
                 System.out.println("Porcentaje Discapacidad menor al 40%");
                 System.out.println("En estos casos no presenta ningún bono adicional");
-                sb2=getSalarioBase()/2;
+                sb2=getSalarioBase()*0.7;
                 D2=sb2;
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb2+"\nAnios de Aportacion: "
@@ -140,48 +140,48 @@ public class Discapacidad extends Jubilados{
             }
             else if(discapacidad == 40){
                 System.out.println("Porcentaje Discapacidad del 40%");
-                sb2=getSalarioBase()/2;
-                D2=sb2+(sb2*(discapacidad/100));
+                sb2=getSalarioBase()*0.7;
+                D2=sb2+(sb2*(0.4));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb2+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D2);
             }
             else if(discapacidad == 50){
                 System.out.println("Porcentaje Discapacidad del 50%");
-                sb2=getSalarioBase()/2;
-                D2=sb2+(sb2*(discapacidad/100));
+                sb2=getSalarioBase()*0.7;
+                D2=sb2+(sb2*(0.5));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb2+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D2);
             }
             else if(discapacidad == 60){
                 System.out.println("Porcentaje Discapacidad del 60%");
-                sb2=getSalarioBase()/2;
-                D2=sb2+(sb2*(discapacidad/100));
+                sb2=getSalarioBase()*0.7;
+                D2=sb2+(sb2*(0.6));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb2+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D2);
             }
             else if(discapacidad == 70){
                 System.out.println("Porcentaje Discapacidad del 70%");
-                sb2=getSalarioBase()/2;
-                D2=sb2+(sb2*(discapacidad/100));
+                sb2=getSalarioBase()*0.7;
+                D2=sb2+(sb2*(0.7));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb2+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D2);
             }
             else if(discapacidad == 80){
                 System.out.println("Porcentaje Discapacidad del 80%");
-                sb2=getSalarioBase()/2;
-                D2=sb2+(sb2*(discapacidad/100));
+                sb2=getSalarioBase()*0.7;
+                D2=sb2+(sb2*(0.8));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb2+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D2);
             }
             else if(discapacidad == 90){
                 System.out.println("Porcentaje Discapacidad del 90%");
-                sb2=getSalarioBase()/2;
-                D2=sb2+(sb2*(discapacidad/100));
+                sb2=getSalarioBase()*0.7;
+                D2=sb2+(sb2*(0.9));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb2+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D2);
@@ -191,7 +191,7 @@ public class Discapacidad extends Jubilados{
             if(discapacidad <= 40){
                 System.out.println("Porcentaje Discapacidad menor al 40%");
                 System.out.println("En estos casos no presenta ningún bono adicional");
-                sb3=getSalarioBase()/2;
+                sb3=getSalarioBase()*0.8;
                 D3=sb3;
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb3+"\nAnios de Aportacion: "
@@ -199,48 +199,48 @@ public class Discapacidad extends Jubilados{
             }
             else if(discapacidad == 40){
                 System.out.println("Porcentaje Discapacidad del 40%");
-                sb3=getSalarioBase()/2;
-                D3=sb3+(sb3*(discapacidad/100));
+                sb3=getSalarioBase()*0.8;
+                D3=sb3+(sb3*(0.4));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb3+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D3);
             }
             else if(discapacidad == 50){
                 System.out.println("Porcentaje Discapacidad del 50%");
-                sb3=getSalarioBase()/2;
-                D3=sb3+(sb3*(discapacidad/100));
+                sb3=getSalarioBase()*0.8;
+                D3=sb3+(sb3*(0.5));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb3+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D3);
             }
             else if(discapacidad == 60){
                 System.out.println("Porcentaje Discapacidad del 60%");
-                sb3=getSalarioBase()/2;
-                D3=sb3+(sb3*(discapacidad/100));
+                sb3=getSalarioBase()*0.8;
+                D3=sb3+(sb3*(0.6));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb3+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D3);
             }
             else if(discapacidad == 70){
                 System.out.println("Porcentaje Discapacidad del 70%");
-                sb3=getSalarioBase()/2;
-                D3=sb3+(sb3*(discapacidad/100));
+                sb3=getSalarioBase()*0.8;
+                D3=sb3+(sb3*(0.7));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb3+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D3);
             }
             else if(discapacidad == 80){
                 System.out.println("Porcentaje Discapacidad del 80%");
-                sb3=getSalarioBase()/2;
-                D3=sb3+(sb3*(discapacidad/100));
+                sb3=getSalarioBase()*0.8;
+                D3=sb3+(sb3*(0.8));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb3+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D3);
             }
             else if(discapacidad == 90){
                 System.out.println("Porcentaje Discapacidad del 90%");
-                sb3=getSalarioBase()/2;
-                D3=sb3+(sb3*(discapacidad/100));
+                sb3=getSalarioBase()*0.8;
+                D3=sb3+(sb3*(0.9));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb3+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D3);
@@ -250,7 +250,7 @@ public class Discapacidad extends Jubilados{
             if(discapacidad <= 40){
                 System.out.println("Porcentaje Discapacidad menor al 40%");
                 System.out.println("En estos casos no presenta ningún bono adicional");
-                sb4=getSalarioBase()/2;
+                sb4=getSalarioBase()*0.9;
                 D4=sb4;
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb4+"\nAnios de Aportacion: "
@@ -258,48 +258,48 @@ public class Discapacidad extends Jubilados{
             }
             else if(discapacidad == 40){
                 System.out.println("Porcentaje Discapacidad del 40%");
-                sb4=getSalarioBase()/2;
-                D4=sb4+(sb4*(discapacidad/100));
+                sb4=getSalarioBase()*0.9;
+                D4=sb4+(sb4*(0.4));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb4+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D4);
             }
             else if(discapacidad == 50){
                 System.out.println("Porcentaje Discapacidad del 50%");
-                sb4=getSalarioBase()/2;
-                D4=sb4+(sb4*(discapacidad/100));
+                sb4=getSalarioBase()*0.9;
+                D4=sb4+(sb4*(0.5));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb4+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D4);
             }
             else if(discapacidad == 60){
                 System.out.println("Porcentaje Discapacidad del 60%");
-                sb4=getSalarioBase()/2;
-                D4=sb4+(sb4*(discapacidad/100));
+                sb4=getSalarioBase()*0.9;
+                D4=sb4+(sb4*(0.6));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb4+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D4);
             }
             else if(discapacidad == 70){
                 System.out.println("Porcentaje Discapacidad del 70%");
-                sb4=getSalarioBase()/2;
-                D4=sb4+(sb4*(discapacidad/100));
+                sb4=getSalarioBase()*0.9;
+                D4=sb4+(sb4*(0.7));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb4+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D4);
             }
             else if(discapacidad == 80){
                 System.out.println("Porcentaje Discapacidad del 80%");
-                sb4=getSalarioBase()/2;
-                D4=sb4+(sb4*(discapacidad/100));
+                sb4=getSalarioBase()*0.9;
+                D4=sb4+(sb4*(0.8));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb4+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D4);
             }
             else if(discapacidad == 90){
                 System.out.println("Porcentaje Discapacidad del 90%");
-                sb4=getSalarioBase()/2;
-                D4=sb4+(sb4*(discapacidad/100));
+                sb4=getSalarioBase()*0.9;
+                D4=sb4+(sb4*(0.9));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb4+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D4);
@@ -309,7 +309,7 @@ public class Discapacidad extends Jubilados{
             if(discapacidad <= 40){
                 System.out.println("Porcentaje Discapacidad menor al 40%");
                 System.out.println("En estos casos no presenta ningún bono adicional");
-                sb5=getSalarioBase()/2;
+                sb5=getSalarioBase();
                 D5=sb5;
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb5+"\nAnios de Aportacion: "
@@ -317,48 +317,48 @@ public class Discapacidad extends Jubilados{
             }
             else if(discapacidad == 40){
                 System.out.println("Porcentaje Discapacidad del 40%");
-                sb5=getSalarioBase()/2;
-                D5=sb5+(sb5*(discapacidad/100));
+                sb5=getSalarioBase();
+                D5=sb5+(sb5*(0.4));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb5+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D5);
             }
             else if(discapacidad == 50){
                 System.out.println("Porcentaje Discapacidad del 50%");
-                sb5=getSalarioBase()/2;
-                D5=sb5+(sb5*(discapacidad/100));
+                sb5=getSalarioBase();
+                D5=sb5+(sb5*(0.5));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb5+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D5);
             }
             else if(discapacidad == 60){
                 System.out.println("Porcentaje Discapacidad del 60%");
-                sb5=getSalarioBase()/2;
-                D5=sb5+(sb5*(discapacidad/100));
+                sb5=getSalarioBase();
+                D5=sb5+(sb5*(0.6));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb5+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D5);
             }
             else if(discapacidad == 70){
                 System.out.println("Porcentaje Discapacidad del 70%");
-                sb5=getSalarioBase()/2;
-                D5=sb5+(sb5*(discapacidad/100));
+                sb5=getSalarioBase();
+                D5=sb5+(sb5*(0.7));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb5+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D5);
             }
             else if(discapacidad == 80){
                 System.out.println("Porcentaje Discapacidad del 80%");
-                sb5=getSalarioBase()/2;
-                D5=sb5+(sb5*(discapacidad/100));
+                sb5=getSalarioBase();
+                D5=sb5+(sb5*(0.8));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb5+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D5);
             }
             else if(discapacidad == 90){
                 System.out.println("Porcentaje Discapacidad del 90%");
-                sb5=getSalarioBase()/2;
-                D5=sb5+(sb5*(discapacidad/100));
+                sb5=getSalarioBase();
+                D5=sb5+(sb5*(0.9));
                 System.out.println("Nombre: "+getNombre()+"\nC.I: "+getCedula()
                     +"\nSalario Base: "+sb5+"\nAnios de Aportacion: "
                     +getAniosAportacion()+"\nDiscapacidad: "+discapacidad+"\nSalario Total A Recibir por Discapacidad: "+D5);
